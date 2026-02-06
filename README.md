@@ -1,24 +1,64 @@
 # functional-python
 
-This a repository for learning functional programming in Python.
+A small, practical playground for learning functional programming concepts in Python through concise examples and incremental exercises.
 
-## Motivation
+## Why this repo?
 
-We can see nowadays that functional programming is becoming more and more popular. There are many languages that are designed with functional programming in mind, such as Haskell, Ocaml, Rust, Go and Zig. However, Python is a multi-paradigm language that also supports functional programming features.
+Functional programming (FP) can feel abstract when presented only as theory or toy examples. This repository focuses on **small, concrete, and reusable patterns** that you can apply in real projects. The goal is to show how FP ideas improve code clarity, safety, and composability—without requiring a new language.
 
-Today many developers are interested in learning functional programming concepts to improve their coding skills, write cleaner and more maintainable code, and leverage the benefits of functional programming such as immutability, first-class functions, and higher-order functions.
-People write technical blogs, create video tutorials, and share code examples on platforms like GitHub to help others learn functional programming. Yeah, some of them are quite high-quallity and professional, but filled with too much information that can be overwhelming for beginners, even they provide many classic and simplified example cases. For beginners, it's hard to find a good starting point. From my personal experience, honestly I don't think many cases they always mentioned are that pratical in real-world applications, at least most of the time I didn't find a very concrete use case to apply those concepts. (I mean they are good and typical, but no one gave me a concrete enough example, so that I can immediately apply them. No offense, I would say those FP cases in "code blocks" just look elegant and sophisticated, but when writing real code, I often think FP is more like a "theoretical" concept, rather than something really useful and practical.)
+## Goals
 
-## Objective
+- Provide **minimal, readable implementations** of core FP concepts in Python.
+- Explain *why* and *when* each concept is useful.
+- Offer **hands-on examples** you can run and modify quickly.
+- Keep the code small enough to study in one sitting.
 
-This repository aims to provide resources, examples, and exercises to help Python developers learn and apply functional programming concepts in their code. We hope to be more practical and concrete, so that learners can see the benefits of functional programming in real-world scenarios. We will not just conveny the so called "theoretical" concepts, but also show how to use them effectively in everyday coding tasks.
+## What’s inside
+
+Current modules:
+
+- `functor.py` — a basic `Functor` with `map`
+- `maybe.py` — a `Maybe` type to represent optional values safely
+- `either.py` — an `Either` type for success/error-style modeling
+
+Each module includes a small `main()` demonstrating usage.
 
 ## Requirements
-- Python 3.12.10 or higher (We will use some advanced features, so make sure to have the right version installed)
 
-## Getting Started
+- **Python 3.12.10+**
 
+<!--## Getting started
 
-## Blog
+1. Clone the repository:
 
-I find in real practice, when I decide to write FP code, I often encounter many problems and challenges, so many distractions and confusions come up...
+   ```/dev/null/commands.txt#L1-1
+   git clone <your-repo-url>
+   ```
+
+2. Run a module:
+
+   ```/dev/null/commands.txt#L1-1
+   python functor.py
+   ```
+
+   or
+
+   ```/dev/null/commands.txt#L1-1
+   python maybe.py
+   ```
+
+3. Read the code and experiment. Try replacing lambdas or values to see how behavior changes.-->
+
+## Suggested learning path
+
+1. **Functor** — Learn how `map` applies a transformation without changing the container.
+2. **Maybe** — Avoid `None` checks scattered across your code.
+3. **Either** — Model success/failure explicitly without exceptions.
+
+<!--## Contributing ideas
+
+If you have a practical example or a small FP pattern that helped you in real work, feel free to open a PR or issue. The focus is always on **clarity and usefulness**.-->
+
+<!--## License
+
+This project is provided for learning and experimentation. Add a license if you plan to share or reuse it widely.-->
