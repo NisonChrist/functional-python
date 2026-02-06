@@ -10,7 +10,7 @@ class Functor:
         return Functor(fn(self._value))
 
     def __str__(self):
-        return f"Functor({self._value})"
+        return f"{self.__class__.__name__}({self._value})"
 
 
 def main():

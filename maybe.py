@@ -15,9 +15,6 @@ class Maybe(Functor):
         else:
             return Maybe(fn(self._value))
 
-    def __str__(self):
-        return f"Maybe({self._value})"
-
 
 def main():
     print(Maybe.of(None).map(lambda x: x + 1))  # Maybe(None)
