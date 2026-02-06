@@ -15,3 +15,10 @@ This repository aims to provide resources, examples, and exercises to help Pytho
 
 ## Requirements
 - Python 3.12.10 or higher (We will use some advanced features, so make sure to have the right version installed)
+
+## Getting Started
+
+
+## Blog
+
+I find in real practice, when I decide to write FP code, I often encounter many problems and challenges, so many distractions and confusions come up...
